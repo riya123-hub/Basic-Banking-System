@@ -1,0 +1,80 @@
+.header li h1 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: white;
+    margin-right: 450px;
+    font-size: 46px;
+    text-decoration: underline;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header li {
+    float: right;
+}
+
+.header li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.header li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin-bottom: 1px;
+}
+
+.table {
+    margin-top: 70px;
+    margin-left: 140px;
+    width: 80%;
+    font-size: 16px;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    cursor: pointer;
+}
+
+.transbtn {
+    width: 80%;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+}
+
+.transbtn:hover {
+    color: white;
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
+
+.transbtn:focus {
+    outline: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    background-color: #a55c1b;
+    background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+}

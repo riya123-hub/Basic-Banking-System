@@ -1,0 +1,124 @@
+.theader li h1 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: white;
+    margin-right: 450px;
+    font-size: 46px;
+    text-decoration: underline;
+}
+
+.theader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.theader li {
+    float: right;
+}
+
+.theader li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.theader li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin-bottom: 1px;
+}
+
+.dform {
+    margin-top: 64px;
+    margin-left: 15%;
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 12px 12px 12px grey;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+
+.form1 {
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+select {
+    width: 80%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+select:focus {
+    outline: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+}
+
+label {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+input[type=number] {
+    width: 80%;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+input[type=number]:focus {
+    outline: 0;
+}
+
+.tbutton {
+    margin-top: 20px;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.tbutton:hover {
+    box-shadow: 8px 8px 8px white;
+}
+
+.tbutton:focus {
+    outline: 0;
+}
+
+.table {
+    margin-top: 70px;
+    font-size: 16px;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    background-color: #a55c1b;
+    background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+}
